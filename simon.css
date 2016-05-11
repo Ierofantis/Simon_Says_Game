@@ -1,0 +1,128 @@
+body {
+  background-color: black;
+}
+
+#container {
+  width: 450px;
+  position: relative;
+  margin: 0 auto;
+  
+}
+#simple{
+  text-align:left;
+   font-size: 30px;
+  color:white;
+  opacity:0.8;
+  margin-left:45px;
+  
+}
+#s{
+  text-align:center;
+   font-size: 30px;
+  color:white;
+  opacity:0.8; 
+  
+}
+#strict{
+  text-align:left;
+   font-size:30px;
+  color:white;
+  opacity:0.8;
+  margin-left:300px;
+  
+}
+
+#green {
+  position: absolute;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  border: 182.14285714285714px solid;
+  border-color: #0b7000;
+  border-bottom: none;
+  border-right: none;
+  border-top-left-radius: 182.14285714285714px;
+  left: 32.14285714285714px;
+  top: 32.14285714285714px;
+  opacity: 0.5;
+}
+.lit{opacity:1;}
+#red {
+  position: absolute;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  border: 182.14285714285714px solid;
+  border-color: #c30800;
+  border-bottom: none;
+  border-left: none;
+  border-top-right-radius: 182.14285714285714px;
+  left: 235.7142857142857px;
+  top: 32.14285714285714px;
+  opacity: 0.5;
+}
+
+#yellow {
+  position: absolute;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  border: 182.14285714285714px solid;
+  border-color: #c3b400;
+  border-top: none;
+  border-right: none;
+  border-bottom-left-radius: 182.14285714285714px;
+  left: 32.14285714285714px;
+  top: 235.7142857142857px;
+  opacity: 0.5;
+}
+
+#blue {
+  position: absolute;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  border: 182.14285714285714px solid;
+  border-color: #196d85;
+  border-top: none;
+  border-left: none;
+  border-bottom-right-radius: 182.14285714285714px;
+  left: 235.7142857142857px;
+  top: 235.7142857142857px;
+  opacity: 0.5;
+}
+
+#count {
+  position: absolute;
+  top: 200px;
+  left: 183px;
+  font-size: 40px;
+  color: white;
+  width: 80px;
+  text-align: center;
+}
+
+#buttons {
+  text-align: center;
+  position: relative;
+  bottom: -450px;
+}
+
+.btn {
+  background-color: #e34646;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+  opacity: 0.5;
+}

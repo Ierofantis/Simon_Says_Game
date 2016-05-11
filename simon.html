@@ -1,0 +1,34 @@
+<h4 id="s">Theodore Pantazopoulos</h4>
+<h4 id="s">Simon Says for FCC</h4>
+<div id="container">
+  <audio id = "redS">
+  <source src = "https://s3.amazonaws.com/freecodecamp/simonSound1.mp3">
+</audio>
+
+<audio id = "greenS">
+  <source src = "https://s3.amazonaws.com/freecodecamp/simonSound2.mp3">
+</audio>
+
+<audio id = "blueS">
+  <source src = "https://s3.amazonaws.com/freecodecamp/simonSound3.mp3">
+</audio>
+
+<audio id = "yellowS">
+  <source src = "https://s3.amazonaws.com/freecodecamp/simonSound4.mp3">
+</audio>
+  
+  <div id="red" onclick="playSound('https://s3.amazonaws.com/freecodecamp/simonSound1.mp3');" data-clicked="no" > <audio id="red1" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" preload="auto"></audio></div>
+  <div id="green" onclick="playSound('https://s3.amazonaws.com/freecodecamp/simonSound2.mp3');"data-clicked="no"></div>
+  <div id="blue" onclick="playSound('https://s3.amazonaws.com/freecodecamp/simonSound3.mp3');" data-clicked="no"></div>
+  <div id="yellow" onclick="playSound('https://s3.amazonaws.com/freecodecamp/simonSound4.mp3');" data-clicked="no"></div>
+  
+  <div id="count"></div>
+  <div id="buttons">
+    <!--<button id="1" type="button" class="btn btn-default"onclick="add_sequence()">Simple </button>-->
+   <div id="simple">Simple &nbsp;&nbsp;&nbsp;&nbsp;Strict&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Restart</div> 
+     <button id="2" type="button" class="btn btn-default"onclick="comp()">Test It</button>   
+       <button id="3" type="button" class="btn btn-default" onclick="comps()">Test It</button>
+     <button id="restart" type="button" class="btn btn-default">Restart </button>
+    <!--<button id="3" type="button" class="btn btn-default">Restart</button>-->
+  </div>
+</div>
